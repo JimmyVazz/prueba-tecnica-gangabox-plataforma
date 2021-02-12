@@ -31,12 +31,17 @@ Si descargamos el excel con productos, de acuerdo al template que se proporcion�
 ![](https://prueba-gangabox.netlify.app/assets/img/ExcelDescarga.png)
 Así se ve el archivo al ser descargado desde la plataforma. Podemos editar y subir directamente este mismo archivo para modificar. 
 #### App Mobile
+
 Para demostrar la actualización de datos al subir un archivo excel, decidí crear una aplicación sencilla que consume una API con los productos y los muestra de forma ordenada como vienen de acuerdo al numero de lista. Al abrir la app se muestra el logo de la empresa:
+
 ![](https://prueba-gangabox.netlify.app/assets/img/Splash.png)
 
 Después, en el Home de la app se cargan de acuerdo a como están ordenados los productos:
+
 ![](https://prueba-gangabox.netlify.app/assets/img/HomeApp.png)
+
 No realice el grid para que salga por columnas para no gastar tanto tiempo en frontend, pero la funcionalidad del ordenamiento funciona. 
+
 
 **Ahora, podemos probar de la siguiente manera:**
 1. Abrir la plataforma web para ver los productos.
@@ -44,11 +49,17 @@ No realice el grid para que salga por columnas para no gastar tanto tiempo en fr
 3. Ver de que manera están ordenados.
 4. Descargar o subir el excel cambiando el orden o datos.
 5. Cuando se muestre la alerta de actualización exitosa, vamos a la aplicación móvil y la refrescamos de la siguiente manera:
+
+
 ![](https://prueba-gangabox.netlify.app/assets/img/Refresh.png)
+
 Jalamos hacia abajo la pantalla como si estuviéramos actualizando Facebook y soltamos. Al momento de hacer esto, se actualizaran de forma automática los datos. Y nos saldrá un mensaje:
+
 ![](https://prueba-gangabox.netlify.app/assets/img/Actuliazada.png)
+
 De esta forma podemos ver como todo se actualiza en nuestra BD.
 Por ultimo, el endpoint que consume nuestra app mobile se ve de la siguiente manera:
+
 ![](https://prueba-gangabox.netlify.app/assets/img/Json.png)
 
 _Eso sería todo lo que conlleva la tarea que se pidió en la prueba. En la parte de abajo dejo los links de ingreso a la plataforma y descarga de la app._
@@ -91,9 +102,9 @@ Nota. Debes crear la BD y crear tu variable de entorno .env para el proyecto lar
  
 ### Demos en producción 😎
 #### Plataforma: Laravel + Bootstrap + MySQL + React Native 🔥
-👉 [Plataforma web](https://gangabox-admin.herokuapp.com/)
- 👉[API de consulta de productos ](https://gangabox-admin.herokuapp.com/api/v1/gangabox/productos)
-👉 [Descarga App Mobile](https://drive.google.com/drive/folders/1yTuV135EEtX_HKpCj5HHrrZNPL0YPzgg?usp=sharing) - En esta carpeta de drive se encuentra el archivo APK para probar la app en sus android, solo se tiene que descargar el archivo y abrir desde el administrador de archivos. 
+* 👉 [Plataforma web](https://gangabox-admin.herokuapp.com/)
+ * 👉[API de consulta de productos ](https://gangabox-admin.herokuapp.com/api/v1/gangabox/productos)
+* 👉 [Descarga App Mobile](https://drive.google.com/drive/folders/1yTuV135EEtX_HKpCj5HHrrZNPL0YPzgg?usp=sharing) - En esta carpeta de drive se encuentra el archivo APK para probar la app en sus android, solo se tiene que descargar el archivo y abrir desde el administrador de archivos. 
 Al instalar, dar click en Play Protect: Instalar de todas formas. Para que deje instalar la app. 
 
 
