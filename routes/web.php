@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProductoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,4 +19,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', function () {
+//     return view('productos.index');
+// });
+
+Route::resource('/home', ProductoController::class);
+Route::post('home/importProductos', [ProductoController::class, 'importProductos'])->name('importarProductos');
+Route::get('/exportProductos', [ProductoController::class, 'export'])->name('exportarProductos');
