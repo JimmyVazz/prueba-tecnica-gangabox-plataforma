@@ -2,9 +2,12 @@
 ![](https://cdn.shopify.com/s/files/1/0127/3161/3243/files/Gangabox_logo_PNG_2_Without_Website_041bfa7f-f819-4ed0-997e-ca71902830a3.png?v=1601139005)
 
 La prueba consiste en crear un funcionalidad en una plataforma administrativa para la importación/exportación de productos por cada categoría. La idea es poder actualizar de forma fácil y rápida datos de los productos, como lo es su orden de aparición en el catalogo. Se debe poder descargar el archivo en **excel**, editar directamente desde el archivo y poder subir de nuevo, donde al subir se visualicen los cambios en el orden o datos de los productos. 
+
 ![Catalogo](https://prueba-gangabox.netlify.app/assets/img/Ejemplo.png)
+
 Donde el ordenamiento viene desde el valor que se le da.
 Ahora para poder actualizarlo de forma más rápida, se tiene un template:
+
 ![](https://prueba-gangabox.netlify.app/assets/img/Template.png)
 
 ## Propuesta 🚀
@@ -29,6 +32,7 @@ De modo que en el Home de la plataforma web al iniciar sesión, se debe visualiz
 Se muestran los productos actuales en la BD y los botones para subir un archivo desde la computadora o descargar en excel los productos para su modificación. 
 Si descargamos el excel con productos, de acuerdo al template que se proporcionó, use este forma :
 ![](https://prueba-gangabox.netlify.app/assets/img/ExcelDescarga.png)
+
 Así se ve el archivo al ser descargado desde la plataforma. Podemos editar y subir directamente este mismo archivo para modificar. 
 #### App Mobile
 
